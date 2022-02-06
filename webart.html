@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+      $(document).on('scroll', function(){
+                $('h1').css("left", Math.max(500 - 0.35*window.scrollY) + "px")
+            })
+    </script>
+    <style>
+      body{
+                margin: 0;
+                padding: 0;
+                height: 10000px;
+                overflow-x: hidden;
+                background-color: #00947a;
+            }
+      h1{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                position: fixed;
+                top: 50%;
+                transform: translateY(-50%);
+                white-space: nowrap;
+                font-size: 5em;
+                color:#1b6d5e;
+                left:500px;
+            }
+    </style>
+  </head>
+  <body>
+    <h1>4TH ONE is coming....are you ready? Enjoy your time!<h1>
+  </body>
+</html>
